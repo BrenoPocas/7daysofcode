@@ -91,20 +91,17 @@ body{
 }
 
 .metricas__valor{
-    font-family: 'Inter';
     font-weight: 600;
     font-size: 60px;
     color: var(--vermelho);
 }
 
 .metricas__titulo{
-    font-family: 'Inter';
     font-size: 18px;
     color: var(--grey900);
 }
 
 .metricas__paragrafo{
-    font-family: 'Inter';
     font-weight: 400;
     color: var(--grey500);
     max-width: 280px;
