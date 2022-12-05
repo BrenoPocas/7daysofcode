@@ -94,11 +94,13 @@ body{
     font-weight: 600;
     font-size: 60px;
     color: var(--vermelho);
+    margin-bottom:12px;
 }
 
 .metricas__titulo{
     font-size: 18px;
     color: var(--grey900);
+    margin-bottom: 8px;
 }
 
 .metricas__paragrafo{
