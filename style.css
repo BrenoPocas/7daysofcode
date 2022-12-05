@@ -45,8 +45,24 @@ body{
 }
 
 .link{
+    position: relative;
     text-decoration: none;
     color:var(--cinza);
+}
+
+.link::before{
+    content:"";
+    width:0%;
+    transition:400ms;
+}
+
+.link:hover::before{
+    content:"";
+    background-color: var(--vermelho);
+    position: absolute;
+    top:100%;
+    height:2px;
+    width:100%;
 }
 
 .button{
@@ -57,6 +73,15 @@ body{
 .button-red{
     background-color:var(--vermelho);
     color:white;
+    transition: 250ms;
+}
+
+.button-red a{
+    color:white;
+}
+
+.button-red:hover{
+    transform:scale(1.1);
 }
 
 .banner{
@@ -251,6 +276,10 @@ body{
     font-size: 16px;
     font-weight: 400;
     color: var(--grey500);
+}
+
+.formulario__email:focus{
+    outline-color: #8E2424;
 }
 
 .formulario__submit{
