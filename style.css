@@ -108,3 +108,57 @@ body{
     color: var(--grey500);
     max-width: 280px;
 }
+
+.vagas{
+    text-align: center;
+    padding:100px;
+    margin:0 auto;
+}
+
+.vagas__texto{
+    display: inline-block;
+    background: #8E24240D;
+    color:var(--vermelho);
+    border-radius:16px;
+    padding:4px 12px;
+    font-size: 14px;
+    margin-bottom:20px;
+}
+
+.vagas__titulo{
+    font-weight: 600;
+    font-size: 36px;
+    color:var(--grey900);
+    margin-bottom:20px;
+}
+
+.vagas__subtitulo{
+    font-weight: 400;
+    font-size: 20px;
+    color:var(--grey500);
+    margin-bottom:64px;
+}
+
+.vagas__imagem{
+    max-width: 1216px;
+}
+
+.vagas__setor,
+.card{
+    text-align: left;
+}
+
+.vagas__setor{
+    max-width: 816px;
+    font-size: 20px;
+    color: var(--grey900);
+    margin:64px auto 32px;
+}
+
+.card{
+    max-width: 768px;
+    padding: 24px 24px 28px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    margin:0 auto 24px;
+}
