@@ -162,3 +162,18 @@ body{
     border-radius: 16px;
     margin:0 auto 24px;
 }
+
+.card__titulo{
+    margin-bottom:32px;
+    font-size:18px;
+}
+
+.card__container{
+    display:flex;
+    gap: 24px;
+}
+
+.card__expediente,
+.card__salario{
+    color:var(--grey500);
+}
